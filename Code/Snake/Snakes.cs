@@ -15,7 +15,7 @@ namespace Snake
     public class Snakes
     {
         Texture2D texture;
-        int len = 2;
+        public int len = 2;
         float sz;
         List<Vector2> pos;
         int[] dx = new int[4];
@@ -125,10 +125,10 @@ namespace Snake
             }
             pos[0] = new Vector2(new_x, new_y);
 
-
+            
             if (dead)
             {
-                
+                len++;
                 maximumframe--;
                 if (maximumframe < 1) maximumframe = 1;
                 food.Generate(pos);

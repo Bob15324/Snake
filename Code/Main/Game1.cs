@@ -19,6 +19,8 @@ public class Game1 : Game
     Snakes snake;
 
     public static Game1 self;
+    SpriteFont font;
+
 
     public Game1()
     {
@@ -45,7 +47,7 @@ public class Game1 : Game
     protected override void LoadContent()
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
-        
+        font = Content.Load<SpriteFont>("File");
     }
 
     protected override void Update(GameTime gameTime)
@@ -58,6 +60,9 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.Black);
         snake.Draw(_spriteBatch);
+        _spriteBatch.Begin();
+        _spriteBatch.DrawString(font, "" + (snake.len - 2), new Vector2(0, 0), Color.White);
+        _spriteBatch.End();
         base.Draw(gameTime);
     }
 
