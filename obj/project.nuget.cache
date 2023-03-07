@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cmhP607OI6xG3Dj1Yp4M6dKUElNLRc4o7nfeqd1KV5Eg8NQm/226PcHVDpSdN8BRfy8REoPlQL0FSoDlJ5SgDA==",
+  "dgSpecHash": "TPNJvlfo9mxY+OfbNBuDgA0pCTZkzhI8oNi343Wsdr44BnYV9ttrnZC5W1GYvo8RayDruda+KT3tEfcuOJP91w==",
   "success": true,
   "projectFilePath": "E:\\Code\\Snake\\Snake.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,7 @@
     "C:\\Users\\Bob Clinton\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
     "C:\\Users\\Bob Clinton\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.14\\microsoft.netcore.app.runtime.win-x64.6.0.14.nupkg.sha512",
     "C:\\Users\\Bob Clinton\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.14\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.14.nupkg.sha512",
-    "C:\\Users\\Bob Clinton\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.14\\microsoft.aspnetcore.app.runtime.win-x64.6.0.14.nupkg.sha512",
-    "C:\\Users\\Bob Clinton\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.14\\microsoft.netcore.app.crossgen2.win-x64.6.0.14.nupkg.sha512"
+    "C:\\Users\\Bob Clinton\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.14\\microsoft.aspnetcore.app.runtime.win-x64.6.0.14.nupkg.sha512"
   ],
   "logs": []
 }

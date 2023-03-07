@@ -50,22 +50,22 @@ namespace Snake
         private bool ChangeDirection()
         {
             KeyboardState key = Keyboard.GetState();
-            if(key.IsKeyDown(Keys.D) && direction != 1 && direction != 0)
+            if((key.IsKeyDown(Keys.D) || key.IsKeyDown(Keys.Right) )  && direction != 1 && direction != 0)
             {
                 direction = 0;
                 return true;
             }
-            if(key.IsKeyDown(Keys.S) && direction != 3  && direction != 2)
+            if((key.IsKeyDown(Keys.S) || key.IsKeyDown(Keys.Down)) && direction != 3  && direction != 2)
             {
                 direction = 2;
                 return true;
             }
-            if(key.IsKeyDown(Keys.A) && direction != 0 && direction != 1)
+            if((key.IsKeyDown(Keys.A) || key.IsKeyDown(Keys.Left) ) && direction != 0 && direction != 1)
             {
                 direction = 1;
                 return true;
             }
-            if(key.IsKeyDown(Keys.W) && direction != 2 && direction != 3)
+            if((key.IsKeyDown(Keys.W) || key.IsKeyDown(Keys.Up) ) && direction != 2 && direction != 3)
             {
                 direction = 3;
                 return true;
